@@ -1,6 +1,6 @@
-/builder
-/resume_base.fdb_latexmk
-/resume_base.fls
-/resume_base.log
-/resume_base.out
-/resume_base.synctex.gz
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.log
+*.synctex.gz
