@@ -1,48 +1,29 @@
 \section{Experience}
-\resumeSubHeadingListStart
+  \resumeSubHeadingListStart
 
-\resumeSubheading
-{Google}{Mountain View, CA}
-{Software Engineer}{Oct 2016 -- Present}
-\resumeItemListStart
-\resumeItem{TensorFlow}
-{TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
-\resumeItem{Apache Beam}
-{Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-\resumeItemListEnd
-
-% --------Multiple Positions Heading------------
-%  \resumeSubSubheading
-%   {Software Engineer I}{Oct 2014 -- Sep 2016}
-%   \resumeItemListStart
-%      \resumeItem{Apache Beam}
-%        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%   \resumeItemListEnd
-
-%-------------------------------------------
-
-\resumeSubheading
-{Coursera}{Mountain View, CA}
-{Senior Software Engineer}{Jan 2014 -- Oct 2016}
-\resumeItemListStart
-\resumeItem{Notifications}
-{Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-\resumeItem{Nostos}
-{Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-\resumeItem{Workflows}
-{Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-\resumeItem{Data Collection}
-{Designed the internal survey and crowdsourcing platform which allowed for creating various tasks for crowdsourcing or embedding surveys across the Coursera platform.}
-\resumeItem{Dev Environment}
-{Analytics environment based on Docker and AWS, standardized the Python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-\resumeItem{Data Warehousing}
-{Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-\resumeItem{Recommendations}
-{Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-\resumeItem{Content Discovery}
-{Improved content discovery by building a new onboarding experience on coursera. Used this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-\resumeItem{Course Dashboards}
-{Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-\resumeItemListEnd
-
-\resumeSubHeadingListEnd
+  \resumeSubheading
+  {\href{https://drive.google.com/file/d/10sMPuoBGO8S7p0PfTe7Hr_CULP5aWhup/view}{Fractal Analytics}}{Mumbai, India}
+  {Machine Learning Engineer}{Oct 2021 -- Aug 2024}
+  \resumeItemListStart
+      \resumeItem{ML Infrastructure on AWS}
+      {All client ML workloads ran on AWS, set up SageMaker for training and deployment, ECS/EKS for containers, and CloudWatch for monitoring, keeping pipelines stable across multiple CPG/FMCG projects.}
+      \resumeItem{CI/CD \& Model Deployment}
+      {Model releases were manual and error-prone, built Docker-based CI/CD pipelines to automate deployment, cutting release time and making model updates reproducible across environments.}
+      \resumeItem{Model Optimisation \& Productionisation}
+      {Bayesian models were too slow to ship to clients, moved the pipeline to JAX arrays on SageMaker, dropping run time from 5 hours to 8 minutes and unlocking $\sim$50\% more delivery capacity.}
+      \resumeItem{Feature Engineering \& Model Deployment}
+      {Targeting models lacked granularity for client media plans, engineered zip-code level features, trained LightGBM classifiers ($\sim$70\% accuracy), and deployed models to production on SageMaker.}
+      \resumeItem{Technical Leadership}
+      {Team needed a go-to person for ML architecture decisions, reviewed pipeline designs, set modelling standards across the team, and presented production recommendations directly to CPG/FMCG clients.}
+    \resumeItemListEnd
+      
+    \resumeSubheading
+      {\href{https://drive.google.com/file/d/1n0uYAw9foyXEYLjLYKpWT3szMy8oMVQK/view}{Capgemini India Pvt Ltd.}}{Bangalore, India}
+      {Software Engineer}{Aug 2019 -- Oct 2021}
+      \resumeItemListStart
+      \resumeItem{PySpark ETL Tool - Hippo}
+      {Data pipelines were slow and hard to scale for client analytics - architected a PySpark-based ETL tool from scratch, enabling large-scale distributed data processing and cutting transformation time significantly.}
+    \resumeItem{Pipeline Optimisation}
+    {Existing PySpark jobs were unreliable under high data volumes - refactored core transformation logic, improving execution speed and making pipelines stable enough for production client workloads.}\resumeItemListEnd
+   
+  \resumeSubHeadingListEnd
