@@ -1,0 +1,71 @@
+\documentclass[10.5pt, a4paper]{article}
+
+\usepackage[top=0.85in, bottom=0.85in, left=1in, right=1in]{geometry}
+\usepackage{fontenc}
+\usepackage{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\begin{document}
+
+\pagestyle{empty}
+
+% ── Header ──────────────────────────────────────────────────────────────
+\begin{flushleft}
+    {\large \textbf{Prateek Nigam}} \\
+    Dublin, Ireland \\
+    % \quad \textbullet \quad nigamprateek38@gmail.com \quad \textbullet \quad
+    % \href{https://linkedin.com/in/prateeknigam9}{linkedin.com/in/prateeknigam9}
+\end{flushleft}
+
+\vspace{0.3em}
+\today
+
+\vspace{0.8em}
+Hiring Manager \\
+Telnyx \\
+Dublin, Ireland
+
+\vspace{0.8em}
+
+% ── Salutation ──────────────────────────────────────────────────────────
+Dear Hiring Manager,
+
+% ── Opening ─────────────────────────────────────────────────────────────
+I came across the Software Engineer, AI Squads role at Telnyx and it genuinely stopped me mid-scroll, the combination of low-latency inference, production-grade AI systems, and the kind of ownership you describe is exactly the environment I've been working toward. I'm an AI Engineer with close to five years of experience building and shipping ML and agentic AI systems, and I believe I can contribute meaningfully to Telnyx's mission of making intelligent connectivity accessible at scale.
+
+% ── Body 1 - STAR: model optimisation / infra at Fractal ────────────────
+At Fractal Analytics, our Bayesian Market Mix Models were core to client deliverables, but the pipeline took nearly five hours to run, which was simply too slow to iterate and ship confidently. After profiling the bottlenecks, I ported the numerically intensive sections from NumPy to JAX arrays and restructured the workload to run on GPU-backed SageMaker instances, while wrapping everything in Docker-based CI/CD pipelines so deployments stopped being a manual and error-prone. As the result runtime dropped from five hours to eight minutes, a roughly 97\% reduction and moreover it unlocked around 50\% more delivery capacity for the team. That project taught me a lot about the gap between a model that works in a notebook and one that actually holds up in production, and it's the kind of thinking I'd bring to Telnyx's inference and platform squads day-to-day.
+
+% ── Body 2 - STAR: LangGraph multi-agent + RAG ──────────────────────────
+More recently, I've been working on a problem closer to the agentic side of your stack. Marketing analytics workflows at many organisations are deeply fragmented from data ingestion, model training, attribution, and reporting all happen in separate tools with a lot of manual glue in between. I designed and built a multi-agent orchestration system using LangGraph to connect these steps end-to-end, an S3-backed RAG knowledge base for contextual retrieval and it pushed me to think hard about system design at the boundaries, not just within each component. Given that Telnyx's AI platform serves vector embeddings at scale and supports open-source inference, I think there's a real alignment between where I've been building and where your teams are headed.
+
+% ── Closing ─────────────────────────────────────────────────────────────
+I'm genuinely excited about the breadth of Telnyx's AI Chapter  , the idea that squads span inference pipelines, observability, data systems, and platform foundations, all working toward the same goal, is an engineering environment I'd thrive in. I'd love the chance to talk through where my background fits best and how I can contribute. Thank you for your time and consideration - I look forward to the conversation.
+
+\vspace{1.8em}
+Best regards,
+
+\vspace{0.8em}
+\textbf{Prateek Nigam} \\
+\href{https://prateeknigam.dev/}{AI Engineer} \\
+Mobile: \href{tel:+353892248792}{+353 892248792} \\
+Email: \href{mailto:nigamprateek38@gmail.com}{nigamprateek38@gmail.com} \\
+Linkedin: \href{https://www.linkedin.com/in/prateeknigam9/}{prateeknigam9} \\
+
+
+\end{document}
+
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \textbf{\href{https://prateeknigam.dev/}{\Large \textcolor{BrickRed}{Prateek Nigam}}} & Email: \href{mailto:nigamprateek38@gmail.com}{nigamprateek38@gmail.com} \\
+%     \href{https://prateeknigam.dev/}{AI Engineer} & Mobile: \href{tel:+353892248792}{+353 892248792} \\
+%     Dublin, Ireland & Linkedin: \href{https://www.linkedin.com/in/prateeknigam9/}{prateeknigam9} \\
+%   \end{tabular*}
+  
